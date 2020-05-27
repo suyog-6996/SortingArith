@@ -14,3 +14,7 @@ resultDictionary[0]=$OPERATION1
 resultDictionary[1]=$OPERETION2
 resultDictionary[2]=$OPERATION3
 resultDictionary[3]=$OPERATION4
+for i in ${!resultDictionary[@]}
+do
+	resultArray[$i]=${resultDictionary[$i]}
+done
