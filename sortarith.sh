@@ -16,5 +16,6 @@ resultDictionary[2]=$OPERATION3
 resultDictionary[3]=$OPERATION4
 for i in ${!resultDictionary[@]}
 do
-	resultArray[$i]=${resultDictionary[$i]}
-done
+        resultArray[$i]=${resultDictionary[$i]}
+echo ${resultArray[$i]}
+done | sort -k1 -nr | head -4
