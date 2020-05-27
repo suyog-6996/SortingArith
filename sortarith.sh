@@ -18,4 +18,4 @@ for i in ${!resultDictionary[@]}
 do
         resultArray[$i]=${resultDictionary[$i]}
 echo ${resultArray[$i]}
-done | sort -k1 -nr | head -4
+done | sort -k1 -n | head -4
