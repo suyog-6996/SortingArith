@@ -10,3 +10,7 @@ echo "first operation" $OPERATION1
 echo "second operation" $OPERATION2
 echo "Third operation" $OPERATION3
 echo "Fourth operation" $OPERATION4
+resultDictionary[0]=$OPERATION1
+resultDictionary[1]=$OPERETION2
+resultDictionary[2]=$OPERATION3
+resultDictionary[3]=$OPERATION4
